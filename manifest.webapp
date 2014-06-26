@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "name": "Fortune",
+  "type": "privileged",
+  "description": "Displays a fortune",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/favicon.png",
+    "128": "/img/fortune.png"
+  },
+  "developer": {
+    "name": "floff"
+  },
+  "permissions": {
+    "systemXHR": {
+      "description": "Get the fortune file from a distant server"
+    }
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en"
+}
+
